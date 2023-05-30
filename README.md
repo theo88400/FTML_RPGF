@@ -4,5 +4,5 @@ FTML Final project for Epita FTML course
 # Students
 RIPOLL Théo
 POUËSSEL Bastien
-GENLIS tom
+GENLIS Tom
 FISCH Quentin
