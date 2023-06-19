@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ftml-rpgf"
+version = "0.1.0"
+description = ""
+authors = ["quentin.fisch <quentin.fisch@epita.fr>"]
+readme = "README.md"
+packages = [{include = "ftml_rpgf"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.25.0"
+pandas = "^2.0.2"
+scikit-learn = "^1.2.2"
+optuna = "^3.2.0"
+plotly = "^5.15.0"
+matplotlib = "^3.7.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.23.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
